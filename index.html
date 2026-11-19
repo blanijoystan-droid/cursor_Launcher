@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CursorLauncher</title>
+  <style>
+    html,
+    body,
+    #root {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background: transparent !important;
+      background-color: transparent !important;
+      overflow: hidden !important;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    ::-webkit-scrollbar,
+    *::-webkit-scrollbar {
+      display: none !important;
+      width: 0 !important;
+      height: 0 !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box !important;
+      scrollbar-width: none !important;
+      -ms-overflow-style: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
